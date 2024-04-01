@@ -1,0 +1,31 @@
+use_case,type,method,Current,Low,Baseline,High
+Human Space Flight,ADD,DTE,4,2,4,7
+Near Earth Robotic - LEO Science,ADD,DTE,34,18,33,58
+Near Earth Robotic - GEO and Near Earth,ADD,DTE,11,6,11,19
+Deep Space Robotic,ADD,DTE,0,0,0,0
+Near Earth Robotic - Low Latency & Complex Needs,ADD,DTE,1,1,1,2
+Mission Operations,ADD,DTE,0,0,0,0
+Terrestrial & Aerial,ADD,DTE,0,0,0,0
+Human Space Flight,ADD,SR,14,5,11,18
+Near Earth Robotic - LEO Science,ADD,SR,29,10,22,38
+Near Earth Robotic - GEO and Near Earth,ADD,SR,4,1,3,5
+Deep Space Robotic,ADD,SR,1,0,1,1
+Near Earth Robotic - Low Latency & Complex Needs,ADD,SR,2,1,2,3
+Mission Operations,ADD,SR,0,0,0,0
+Terrestrial & Aerial,ADD,SR,15,5,11,20
+Launch Events DTE,ADD,DTE,0,0,0,0
+Launch Events SR,ADD,SR,2,20,30,40
+Human Space Flight,FDDN,DTE,4,2,3,6
+Near Earth Robotic - LEO Science,FDDN,DTE,34,16,27,52
+Near Earth Robotic - GEO and Near Earth,FDDN,DTE,11,5,9,17
+Deep Space Robotic,FDDN,DTE,0,0,0,0
+Near Earth Robotic - Low Latency & Complex Needs,FDDN,DTE,1,0,1,2
+Mission Operations,FDDN,DTE,0,0,0,0
+Terrestrial & Aerial,FDDN,DTE,0,0,0,0
+Human Space Flight,FDDN,SR,14,3,9,16
+Near Earth Robotic - LEO Science,FDDN,SR,29,7,18,34
+Near Earth Robotic - GEO and Near Earth,FDDN,SR,4,1,2,5
+Deep Space Robotic,FDDN,SR,1,0,1,1
+Near Earth Robotic - Low Latency & Complex Needs,FDDN,SR,2,0,1,2
+Mission Operations,FDDN,SR,0,0,0,0
+Terrestrial & Aerial,FDDN,SR,15,4,9,18
