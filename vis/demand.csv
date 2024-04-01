@@ -1,0 +1,129 @@
+"","use_case","type","method","scenario","missions","minutes","scenario_cost","value","combined"
+"1","Human Space Flight","ADD","DTE","Current",4,231720,"cost_usd_S1",26075451.6,"DTE Current"
+"2","Near Earth Robotic
+LEO Science","ADD","DTE","Current",34,329715,"cost_usd_S1",37102828.95,"DTE Current"
+"3","Near Earth Robotic
+GEO and Near Earth","ADD","DTE","Current",11,169757.5,"cost_usd_S1",19102811.475,"DTE Current"
+"4","Near Earth Robotic
+Low Latency & Complex Needs","ADD","DTE","Current",1,11281,"cost_usd_S1",1269450.93,"DTE Current"
+"5","Terrestrial & Aerial","ADD","DTE","Current",0,0,"cost_usd_S1",0,"DTE Current"
+"6","Human Space Flight","ADD","SR","Current",14,1246308,"cost_usd_S1",80885389.2,"SR Current"
+"7","Near Earth Robotic
+LEO Science","ADD","SR","Current",29,2200085,"cost_usd_S1",142785516.5,"SR Current"
+"8","Near Earth Robotic
+GEO and Near Earth","ADD","SR","Current",4,218,"cost_usd_S1",14148.2,"SR Current"
+"9","Near Earth Robotic
+Low Latency & Complex Needs","ADD","SR","Current",2,4094,"cost_usd_S1",265700.6,"SR Current"
+"10","Terrestrial & Aerial","ADD","SR","Current",15,130080,"cost_usd_S1",8442192,"SR Current"
+"11","Human Space Flight","FDDN","DTE","Current",4,231720,"cost_usd_S1",26075451.6,"DTE Current"
+"12","Near Earth Robotic
+LEO Science","FDDN","DTE","Current",34,329715,"cost_usd_S1",37102828.95,"DTE Current"
+"13","Near Earth Robotic
+GEO and Near Earth","FDDN","DTE","Current",11,169757.5,"cost_usd_S1",19102811.475,"DTE Current"
+"14","Near Earth Robotic
+Low Latency & Complex Needs","FDDN","DTE","Current",1,11281,"cost_usd_S1",1269450.93,"DTE Current"
+"15","Terrestrial & Aerial","FDDN","DTE","Current",0,0,"cost_usd_S1",0,"DTE Current"
+"16","Human Space Flight","FDDN","SR","Current",14,1246308,"cost_usd_S1",80885389.2,"SR Current"
+"17","Near Earth Robotic
+LEO Science","FDDN","SR","Current",29,2200085,"cost_usd_S1",142785516.5,"SR Current"
+"18","Near Earth Robotic
+GEO and Near Earth","FDDN","SR","Current",4,218,"cost_usd_S1",14148.2,"SR Current"
+"19","Near Earth Robotic
+Low Latency & Complex Needs","FDDN","SR","Current",2,4094,"cost_usd_S1",265700.6,"SR Current"
+"20","Terrestrial & Aerial","FDDN","SR","Current",15,130080,"cost_usd_S1",8442192,"SR Current"
+"21","Human Space Flight","ADD","DTE","Low",2,115860,"cost_usd_S1",24010826.4,"DTE Low"
+"22","Near Earth Robotic
+LEO Science","ADD","DTE","Low",18,174555,"cost_usd_S1",36174778.2,"DTE Low"
+"23","Near Earth Robotic
+GEO and Near Earth","ADD","DTE","Low",6,92595,"cost_usd_S1",19189387.8,"DTE Low"
+"24","Near Earth Robotic
+Low Latency & Complex Needs","ADD","DTE","Low",1,11281,"cost_usd_S1",2337874.44,"DTE Low"
+"25","Terrestrial & Aerial","ADD","DTE","Low",0,0,"cost_usd_S1",0,"DTE Low"
+"26","Human Space Flight","ADD","SR","Low",5,445110,"cost_usd_S1",28887639,"SR Low"
+"27","Near Earth Robotic
+LEO Science","ADD","SR","Low",10,758650,"cost_usd_S1",49236385,"SR Low"
+"28","Near Earth Robotic
+GEO and Near Earth","ADD","SR","Low",1,54.5,"cost_usd_S1",3537.05,"SR Low"
+"29","Near Earth Robotic
+Low Latency & Complex Needs","ADD","SR","Low",1,2047,"cost_usd_S1",132850.3,"SR Low"
+"30","Terrestrial & Aerial","ADD","SR","Low",5,43360,"cost_usd_S1",2814064,"SR Low"
+"31","Human Space Flight","FDDN","DTE","Low",2,115860,"cost_usd_S1",24010826.4,"DTE Low"
+"32","Near Earth Robotic
+LEO Science","FDDN","DTE","Low",16,155160,"cost_usd_S1",32155358.4,"DTE Low"
+"33","Near Earth Robotic
+GEO and Near Earth","FDDN","DTE","Low",5,77162.5,"cost_usd_S1",15991156.5,"DTE Low"
+"34","Near Earth Robotic
+Low Latency & Complex Needs","FDDN","DTE","Low",0,0,"cost_usd_S1",0,"DTE Low"
+"35","Terrestrial & Aerial","FDDN","DTE","Low",0,0,"cost_usd_S1",0,"DTE Low"
+"36","Human Space Flight","FDDN","SR","Low",3,267066,"cost_usd_S1",17332583.4,"SR Low"
+"37","Near Earth Robotic
+LEO Science","FDDN","SR","Low",7,531055,"cost_usd_S1",34465469.5,"SR Low"
+"38","Near Earth Robotic
+GEO and Near Earth","FDDN","SR","Low",1,54.5,"cost_usd_S1",3537.05,"SR Low"
+"39","Near Earth Robotic
+Low Latency & Complex Needs","FDDN","SR","Low",0,0,"cost_usd_S1",0,"SR Low"
+"40","Terrestrial & Aerial","FDDN","SR","Low",4,34688,"cost_usd_S1",2251251.2,"SR Low"
+"41","Human Space Flight","ADD","DTE","Baseline",4,231720,"cost_usd_S1",48021652.8,"DTE Baseline"
+"42","Near Earth Robotic
+LEO Science","ADD","DTE","Baseline",33,320017.5,"cost_usd_S1",66320426.7,"DTE Baseline"
+"43","Near Earth Robotic
+GEO and Near Earth","ADD","DTE","Baseline",11,169757.5,"cost_usd_S1",35180544.3,"DTE Baseline"
+"44","Near Earth Robotic
+Low Latency & Complex Needs","ADD","DTE","Baseline",1,11281,"cost_usd_S1",2337874.44,"DTE Baseline"
+"45","Terrestrial & Aerial","ADD","DTE","Baseline",0,0,"cost_usd_S1",0,"DTE Baseline"
+"46","Human Space Flight","ADD","SR","Baseline",11,979242,"cost_usd_S1",63552805.8,"SR Baseline"
+"47","Near Earth Robotic
+LEO Science","ADD","SR","Baseline",22,1669030,"cost_usd_S1",108320047,"SR Baseline"
+"48","Near Earth Robotic
+GEO and Near Earth","ADD","SR","Baseline",3,163.5,"cost_usd_S1",10611.15,"SR Baseline"
+"49","Near Earth Robotic
+Low Latency & Complex Needs","ADD","SR","Baseline",2,4094,"cost_usd_S1",265700.6,"SR Baseline"
+"50","Terrestrial & Aerial","ADD","SR","Baseline",11,95392,"cost_usd_S1",6190940.8,"SR Baseline"
+"51","Human Space Flight","FDDN","DTE","Baseline",3,173790,"cost_usd_S1",36016239.6,"DTE Baseline"
+"52","Near Earth Robotic
+LEO Science","FDDN","DTE","Baseline",27,261832.5,"cost_usd_S1",54262167.3,"DTE Baseline"
+"53","Near Earth Robotic
+GEO and Near Earth","FDDN","DTE","Baseline",9,138892.5,"cost_usd_S1",28784081.7,"DTE Baseline"
+"54","Near Earth Robotic
+Low Latency & Complex Needs","FDDN","DTE","Baseline",1,11281,"cost_usd_S1",2337874.44,"DTE Baseline"
+"55","Terrestrial & Aerial","FDDN","DTE","Baseline",0,0,"cost_usd_S1",0,"DTE Baseline"
+"56","Human Space Flight","FDDN","SR","Baseline",9,801198,"cost_usd_S1",51997750.2,"SR Baseline"
+"57","Near Earth Robotic
+LEO Science","FDDN","SR","Baseline",18,1365570,"cost_usd_S1",88625493,"SR Baseline"
+"58","Near Earth Robotic
+GEO and Near Earth","FDDN","SR","Baseline",2,109,"cost_usd_S1",7074.1,"SR Baseline"
+"59","Near Earth Robotic
+Low Latency & Complex Needs","FDDN","SR","Baseline",1,2047,"cost_usd_S1",132850.3,"SR Baseline"
+"60","Terrestrial & Aerial","FDDN","SR","Baseline",9,78048,"cost_usd_S1",5065315.2,"SR Baseline"
+"61","Human Space Flight","ADD","DTE","High",7,405510,"cost_usd_S1",45632040.3,"DTE High"
+"62","Near Earth Robotic
+LEO Science","ADD","DTE","High",58,562455,"cost_usd_S1",63293061.15,"DTE High"
+"63","Near Earth Robotic
+GEO and Near Earth","ADD","DTE","High",19,293217.5,"cost_usd_S1",32995765.275,"DTE High"
+"64","Near Earth Robotic
+Low Latency & Complex Needs","ADD","DTE","High",2,22562,"cost_usd_S1",2538901.86,"DTE High"
+"65","Terrestrial & Aerial","ADD","DTE","High",0,0,"cost_usd_S1",0,"DTE High"
+"66","Human Space Flight","ADD","SR","High",18,1602396,"cost_usd_S1",103995500.4,"SR High"
+"67","Near Earth Robotic
+LEO Science","ADD","SR","High",38,2882870,"cost_usd_S1",187098263,"SR High"
+"68","Near Earth Robotic
+GEO and Near Earth","ADD","SR","High",5,272.5,"cost_usd_S1",17685.25,"SR High"
+"69","Near Earth Robotic
+Low Latency & Complex Needs","ADD","SR","High",3,6141,"cost_usd_S1",398550.9,"SR High"
+"70","Terrestrial & Aerial","ADD","SR","High",20,173440,"cost_usd_S1",11256256,"SR High"
+"71","Human Space Flight","FDDN","DTE","High",6,347580,"cost_usd_S1",39113177.4,"DTE High"
+"72","Near Earth Robotic
+LEO Science","FDDN","DTE","High",52,504270,"cost_usd_S1",56745503.1,"DTE High"
+"73","Near Earth Robotic
+GEO and Near Earth","FDDN","DTE","High",17,262352.5,"cost_usd_S1",29522526.825,"DTE High"
+"74","Near Earth Robotic
+Low Latency & Complex Needs","FDDN","DTE","High",2,22562,"cost_usd_S1",2538901.86,"DTE High"
+"75","Terrestrial & Aerial","FDDN","DTE","High",0,0,"cost_usd_S1",0,"DTE High"
+"76","Human Space Flight","FDDN","SR","High",16,1424352,"cost_usd_S1",92440444.8,"SR High"
+"77","Near Earth Robotic
+LEO Science","FDDN","SR","High",34,2579410,"cost_usd_S1",167403709,"SR High"
+"78","Near Earth Robotic
+GEO and Near Earth","FDDN","SR","High",5,272.5,"cost_usd_S1",17685.25,"SR High"
+"79","Near Earth Robotic
+Low Latency & Complex Needs","FDDN","SR","High",2,4094,"cost_usd_S1",265700.6,"SR High"
+"80","Terrestrial & Aerial","FDDN","SR","High",18,156096,"cost_usd_S1",10130630.4,"SR High"

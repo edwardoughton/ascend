@@ -1,0 +1,15 @@
+use_case,method,mean_minutes_2023
+Human Space Flight,DTE,115860
+Near Earth Robotic - LEO Science,DTE,19395
+Near Earth Robotic - GEO and Near Earth,DTE,30865
+Deep Space Robotic,DTE,0
+Near Earth Robotic - Low Latency & Complex Needs,DTE,22562
+Mission Operations,DTE,0
+Terrestrial & Aerial,DTE,0
+Human Space Flight,SR,178044
+Near Earth Robotic - LEO Science,SR,151730
+Near Earth Robotic - GEO and Near Earth,SR,109
+Deep Space Robotic,SR,572
+Near Earth Robotic - Low Latency & Complex Needs,SR,4094
+Mission Operations,SR,0
+Terrestrial & Aerial,SR,17344
