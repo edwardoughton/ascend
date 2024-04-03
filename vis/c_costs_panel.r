@@ -49,6 +49,13 @@ demand = demand %>%
   summarize(missions = sum(missions),
             minutes = round(sum(minutes)/1e6,2))
 
+cost = df[(df$scenario_cost == 'cost_usd_S1'),]
+cost = select(cost, scenario, method, missions, value)
+cost = cost %>%
+  group_by(method, scenario) %>%
+  summarize(missions = sum(missions),
+            cost = round(sum(value)/1e6,1))
+
 ################################
 ##### DTE - Use Case
 ################################
@@ -118,11 +125,11 @@ plot1 = ggplot(subset, aes(x=combined, y=value)) +
     fill = "",
   ) +
   scale_y_continuous(
-    limits = c(0, 950),
+    limits = c(0, 1900),
     labels = function(y)
       format(y, scientific = FALSE),
     expand = c(0, 0),
-    breaks = seq(0, 950, by = 200)
+    breaks = seq(0, 1900, by = 500)
   ) +
   scale_x_discrete(limits = rev) +
   theme(
@@ -198,7 +205,7 @@ plot2 =
     size = 1.8,
     data = totals,
     vjust = 0.5,
-    hjust = -0.1
+    hjust = -0.05
   )  +
   scale_fill_brewer(palette = "Dark2") + coord_flip() +
   labs(
@@ -210,11 +217,11 @@ plot2 =
     fill = "",
   ) +
   scale_y_continuous(
-    limits = c(0, 950),
+    limits = c(0, 1900),
     labels = function(y)
       format(y, scientific = FALSE),
     expand = c(0, 0),
-    breaks = seq(0, 950, by = 200)
+    breaks = seq(0, 1900, by = 500)
   ) +
   scale_x_discrete(limits = rev) +
   theme(
@@ -343,11 +350,11 @@ plot3 = ggplot(subset, aes(x=combined, y=value)) +
     fill = "",
   ) +
   scale_y_continuous(
-    limits = c(0, 950),
+    limits = c(0, 1900),
     labels = function(y)
       format(y, scientific = FALSE),
     expand = c(0, 0),
-    breaks = seq(0, 950, by = 200)
+    breaks = seq(0, 1900, by = 500)
   ) +
   scale_x_discrete(limits = rev) +
   theme(
@@ -434,11 +441,11 @@ plot4 =
     fill = "",
   ) +
   scale_y_continuous(
-    limits = c(0, 950),
+    limits = c(0, 1900),
     labels = function(y)
       format(y, scientific = FALSE),
     expand = c(0, 0),
-    breaks = seq(0, 950, by = 200)
+    breaks = seq(0, 1900, by = 500)
   ) +
   scale_x_discrete(limits = rev) +
   theme(
@@ -484,3 +491,29 @@ png(
 
 print(panel)
 dev.off()
+
+####################################################
+
+filename = 'results.csv'
+folder <- dirname(rstudioapi::getSourceEditorContext()$path)
+path = file.path(folder, '..', 'results', filename)
+data <- read_csv(path)
+
+# data = data[(data$other_minutes_sold == "No"),]
+# data = data[,-which(names(data) == "other_minutes_sold")]
+
+df = pivot_longer(data, 
+                  -c(use_case, other_minutes_sold, type, method, scenario, missions, minutes), 
+                  values_to = "value", names_to = "scenario_cost")
+
+df$combined = paste(df$method, df$scenario)
+
+df = df[(df$use_case != "Deep Space Robotic"),]
+df = df[(df$use_case != "Mission Operations"),]
+
+cost = df[(df$scenario_cost == 'cost_usd_S1'),]
+cost = select(cost, other_minutes_sold, scenario, missions, value)
+cost = cost %>%
+  group_by(other_minutes_sold, scenario) %>%
+  summarize(missions = sum(missions),
+            cost = round(sum(value)/1e6,1))
