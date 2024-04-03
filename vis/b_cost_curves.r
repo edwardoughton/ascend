@@ -64,11 +64,11 @@ plot_dte = ggplot(df, aes(x = Minutes, y = value)) +
     fill = "",
   ) +
   scale_y_continuous(
-    limits = c(0, 214),
+    limits = c(0, 210),
     labels = function(y)
       format(y, scientific = FALSE),
     expand = c(0, 0),
-    breaks = seq(0, 214, by = 25)
+    breaks = seq(0, 210, by = 25)
   ) +
   scale_x_continuous(
     limits = c(0, 12.9),
@@ -111,7 +111,7 @@ df = select(df, Minutes, `Average fixed cost (US$/Min)`,
 
 df = df[(df$Minutes != 0),]
 df$Minutes = as.numeric(df$Minutes)
-df = df[(df$Minutes < 500000000),]
+df = df[(df$Minutes < 260000000),]
 
 # df = df %>%
 #   slice(which(row_number() %% 6 == 1))
@@ -156,18 +156,18 @@ plot_leo =
     fill = "",#"Use\nCase"
   ) +
   scale_y_continuous(
-    limits = c(0, 79),
+    limits = c(0, 210),
     labels = function(y)
       format(y, scientific = FALSE),
     expand = c(0, 0),
-    breaks = seq(0, 79, by = 10)
+    breaks = seq(0, 210, by = 25)
   ) +
   scale_x_continuous(
-    limits = c(0, 500),
+    limits = c(0, 260),
     labels = function(y)
       format(y, scientific = FALSE),
     expand = c(0, 0),
-    breaks = seq(0, 500, by = 50)
+    breaks = seq(0, 260, by = 50)
   ) +
   theme(
     legend.position = 'bottom',
@@ -200,7 +200,7 @@ data = data[2:53,]
 df = data[,28:38]
 
 df$Minutes = as.numeric(df$Minutes)
-df = df[(df$Minutes < 500000000),]
+df = df[(df$Minutes < 260000000),]
 
 df = select(df, Minutes, `Average fixed cost (US$/Min)`,
             `Average variable cost (US$/Min)`)
@@ -249,18 +249,18 @@ plot_geo =
     fill = "",#"Use\nCase"
   ) +
   scale_y_continuous(
-    limits = c(0, 79),
+    limits = c(0, 210),
     labels = function(y)
       format(y, scientific = FALSE),
     expand = c(0, 0),
-    breaks = seq(0, 79, by = 10)
+    breaks = seq(0, 210, by = 25)
   ) +
   scale_x_continuous(
-    limits = c(0, 499),
+    limits = c(0, 260),
     labels = function(y)
       format(y, scientific = FALSE),
     expand = c(0, 0),
-    breaks = seq(0, 499, by = 50)
+    breaks = seq(0, 260, by = 50)
   ) +
   theme(
     legend.position = 'bottom',
